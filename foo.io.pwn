@@ -10,7 +10,7 @@ main() {
 
     new foo = 0;
     if (foo == 0) {
-        new long = 1; // local : err if out of here
+        new long = 1; // local; err if out of here
     }
 
     if (long == 0) // err: Undefined symbol "long"
